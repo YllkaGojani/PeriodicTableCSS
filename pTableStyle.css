@@ -1,0 +1,87 @@
+body{
+	background-color: #f2f2f2;	
+}
+
+#container,#bottom{
+	width: auto;
+	height:auto;
+	margin:0px auto;
+}
+
+.one{
+	width:65px;
+	height: auto;
+	display: inline-block;
+	background-color: inherit;
+	margin: 5px;
+}
+
+.one .gr{
+	width:99%;
+	height:auto;
+	background-color: transparent;
+	list-style-type: none;	
+	padding-left: 0px;
+}
+
+.one .gr .box, .transparent{
+	width:99%;
+	height: 63px;
+	border: none;
+	background-color: inherit;
+
+}
+
+.one ul{
+	width:99%;
+	height:auto;
+	list-style-type: none;	
+	padding-left: 0px;
+}
+
+.one .box{
+	width:99%;
+	height: 58px;
+	border: 1px solid black;
+	background-color: inherit;
+	text-align: center;
+	color: red;
+	margin: 5px 0px;
+}
+
+#bottom{
+	margin-left: 160px;
+}
+
+.one p,h3{
+	margin: 1px;
+	text-align: center;
+	font-style: Arial,Helvetica,sans-serif;
+}
+
+.one p{
+	font-size: small;
+	color: black;
+}
+
+.one h3{
+	color: #000099;
+}
+
+.one .blue .box{
+	background-color: #3399ff;
+}
+
+.one .pink .box{
+	background-color: #ff9999;
+}
+
+.one .yellow .box{
+	background-color: #ffff33;
+}
+
+
+.one .green .box{
+	background-color: #99ff66;
+
+}
